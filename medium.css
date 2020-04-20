@@ -1,0 +1,118 @@
+@charset "utf-8";
+/*css Documnt*/
+
+@media screen and (max-width:720px)
+{
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:cornsilk;
+    }
+header, section, footer, aside, article, figure
+{
+    display:block 
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    background-color:white;
+    
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-image:url(images/header.jpg); 
+}
+
+.logo{
+    float: left; 
+}
+#socialicons{
+    float: right;
+    margin-top:5%;
+}
+.menubar1{
+    height: 200px;
+    width: 80%;
+    }
+
+.menubar1 ul{
+list-style:none;
+text-align: center;
+}
+
+.menubar1 ul li a{
+    float:none;
+    text-decoration:none;
+    color: #ffffff;
+    padding:0px 40px; 
+    text-align:center;
+    height: 42px;
+    line-height: 42px;
+    background-color:#532002;
+    border-radius:5px;
+    font-weight:bold;
+    display:block; 
+    width: 100%;
+
+}
+
+.menubar1 ul li a:hover{
+    background-color:rgb(110, 60, 3);
+    border-radius: 5px;
+    color:lightblue;
+}
+
+.menubar1 ul li a.active{
+    background-color: rgb(110, 60, 3);
+    border-radius: 5px;
+    color:lightblue;
+}
+
+.content{
+    width:450px;
+    padding:20px;
+}
+
+.sidebarone{
+    width:400px;
+    padding: 20px;
+   
+
+}
+
+.justify{
+    text-align: justify;
+
+}
+.menubar2 ul{
+    list-style:none;
+    width: 360px;
+    background-color:rgb(110, 60, 3);
+
+}
+.menubar2 ul li{
+   border:1px solid #000000;
+   padding: 5px;
+}
+.menubar2 ul li a{
+    color:white;
+}
+
+footer{
+    clear:both;
+    height: 40px;
+    background-image:url(images/Olofin.jpg);
+    color:#0c0c0c;
+    width: 100%;
+}
+}
